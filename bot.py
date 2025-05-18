@@ -2,7 +2,7 @@ import requests
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
-TOKEN = '7806759267:AAGQBlJdSnitN08oJsWflEafQmKlFGfx4OQ'
+TOKEN = '8124672797:AAE3uL4TRC_22CmFH9khs7gLtakTqYPlYw4'
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("سلام! برای دیدن لیست فیلم‌ها دستور /movies را ارسال کن.")
